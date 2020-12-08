@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+  font-weight: 500;
+}
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.main-container {
+  background-color: #211060;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.child-container {
+  width: 22%;
+  height: 100vh;
+  position: absolute;
+  right: 13rem;
+  background-color: #0151df;
+  z-index: 2;
+}
+.homepage-banner-image {
+  position: absolute;
+  height: 60%;
+  z-index: 2;
+  right: -7rem;
+  top: 9rem;
+}
+
+.homepage-tagline {
+  box-sizing: border-box;
+  position: absolute;
+  background-color: white;
+  z-index: 3;
+  padding: 1.5rem;
+  top: 5rem;
+  left: 4rem;
+  right: -7rem;
+}
+
+.homepage-tagline > h2 {
+  font-weight: bold;
+}
+
+.homepage-tagline > p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 16px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.navigation-panels {
+  position: absolute;
+  left: 6rem;
+  bottom: 10rem;
+  max-width: 30%;
+  z-index: 4;
+}
+
+.navigator {
+  height: 30%;
+}
+
+.navigator:hover {
+  text-decoration: none;
+}
+
+.navigation-panels .card {
+  height: 100%;
+  border-radius: 0;
+}
+
+.link-text {
+  padding-top: 10px;
+}
+
+.intro {
+  width: 100%;
+  background-color: #211060;
+  color: white;
+}
+
+.intro p {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.intro p span {
+  font-weight: bold;
+}
+
+.content-container {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.content-heading {
+  font-weight: bold;
+}
+
+.description {
+  padding-left: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.list-of-findings {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-of-findings li i {
+  color: #0151df;
+}
+
+.btn-primary {
+  background-color: #211060 !important;
+  border-color: #211060 !important;
+  border-radius: 0;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.tab-content-links {
+  color: black !important;
+}
+
+.tab-content-links.active {
+  color: white !important;
+  background-color: #0151df !important;
+  border-color: #0151df !important;
+  border-radius: 0;
+}
+
+.intro-content {
+  width: 100%;
+  background-color: #211060;
+  color: white;
+}
+
+.intro-content-container {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.intro-content hr {
+  color: white;
+  border: 1px solid white;
+}
+
+.intro-content h1 {
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+.block-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.block-container .card {
+  color: black;
+  padding: 1.68rem;
+}
+
+.mental-health-content {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/photo6.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mental-health-content-container {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.right-content {
+  background-color: white;
+  height: 100vh;
+  padding-left: 3rem;
+  padding-right: 2.5rem;
+}
+
+.right-content h1 {
+  margin-top: 10rem;
+  color: #0151df;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.right-content .btn-primary {
+  background-color: #0151df !important;
+  border-color: #0151df !important;
+  font-size: 1rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  border-radius: 0;
+}
+
+.resource-links {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.resource-links .card-header {
+  background-color: white !important;
+  padding: 0.5rem 1.25rem !important;
+}
+
+.resource-links .card-header .btn {
+  color: #0070b5 !important;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.resource-links .btn:focus {
+  box-shadow: none;
+}
